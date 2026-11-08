@@ -7,7 +7,7 @@ Runs the [clojure-test-suite](https://github.com/jank-lang/clojure-test-suite) o
 Add the runner to the `rebar.config` of the test suite:
 
 ```erlang
-{deps, [{clojerl, {git, "https://github.com/clojerl/clojerl", {tag, "0.9.1"}}},
+{deps, [{clojerl, "0.9.1"},
         {clojure_test_suite_runner,
          {git, "https://github.com/clojerl/clojure-test-suite-runner", {tag, "v0.1.0"}}}]}.
 {plugins, [{rebar3_clojerl, "0.8.8"}]}.
